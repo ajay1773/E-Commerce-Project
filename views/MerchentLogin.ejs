@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/assets/Merchentstyles.css" type="text/css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Seller Login</title>
+    
+</head>
+<body>
+<div class="container">
+    <h2>Sell with us</h2>
+    <h3>Sign in</h3>
+    <form action="/MerchentLogin" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input class="form-control" type="text" id="name" placeholder="Enter your name" name="Name">
+          </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input class="form-control" type="email" id="email" placeholder="Enter Email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="pswd">Password:</label>
+        <input class="form-control" type="password" id="pwd" placeholder="Enter Password" name="password">
+      </div>
+      <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
+</div>
+</body>
+</html>

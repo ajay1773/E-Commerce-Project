@@ -1,0 +1,26 @@
+:root{
+    --greenish:#99b898;
+    --yellowish:#fecea8;
+    --orange:#ff847c;
+    --redish:#e84a5f;
+    --blackish:#2a363b;
+
+}
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.container{
+    
+    margin-top: 10%;
+    margin-left: 70px;
+    width:30%;
+    color: white;
+    background:var(--blackish);
+    background: linear-gradient( to bottom,var(--greenish),var(--yellowish));
+    padding: 60px 40px;
+    box-shadow: black 5px 2px 10px;
+    border-radius: 10px;
+}
